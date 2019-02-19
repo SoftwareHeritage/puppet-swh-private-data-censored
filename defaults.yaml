@@ -70,60 +70,60 @@ swh::deploy::vault::db::password: swh::deploy::vault::db::password
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
-swh::deploy::worker::swh_lister_github::config:
+swh::deploy::worker::lister_github::config:
   credentials:
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/0/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/0/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/1/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/1/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/2/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/2/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/3/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/3/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/4/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/4/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/5/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/5/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/6/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/6/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/7/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/7/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/8/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/8/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/9/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/9/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/10/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/10/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/11/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/11/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/12/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/12/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/13/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/13/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/14/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/14/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/15/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/15/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/16/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/16/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/17/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/17/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/18/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/18/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/19/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/19/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/20/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/20/username'}
-  - {password: 'swh::deploy::worker::swh_lister_github::config/credentials/21/password',
-    username: 'swh::deploy::worker::swh_lister_github::config/credentials/21/username'}
-swh::deploy::worker::swh_lister_github::db::password: swh::deploy::worker::swh_lister_github::db::password
-swh::deploy::worker::swh_lister_gitlab::config:
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/0/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/0/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/1/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/1/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/2/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/2/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/3/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/3/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/4/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/4/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/5/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/5/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/6/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/6/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/7/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/7/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/8/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/8/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/9/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/9/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/10/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/10/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/11/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/11/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/12/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/12/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/13/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/13/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/14/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/14/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/15/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/15/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/16/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/16/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/17/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/17/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/18/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/18/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/19/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/19/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/20/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/20/username'}
+  - {password: 'swh::deploy::worker::lister_github::config/credentials/21/password',
+    username: 'swh::deploy::worker::lister_github::config/credentials/21/username'}
+swh::deploy::worker::lister_github::db::password: swh::deploy::worker::lister_github::db::password
+swh::deploy::worker::lister_gitlab::config:
   credentials:
     gitlab:
-    - {password: 'swh::deploy::worker::swh_lister_gitlab::config/credentials/gitlab/0/password',
-      username: 'swh::deploy::worker::swh_lister_gitlab::config/credentials/gitlab/0/username'}
-swh::deploy::worker::swh_lister_gitlab::db::password: swh::deploy::worker::swh_lister_gitlab::db::password
-swh::deploy::worker::swh_lister_pypi::db::password: swh::deploy::worker::swh_lister_pypi::db::password
+    - {password: 'swh::deploy::worker::lister_gitlab::config/credentials/gitlab/0/password',
+      username: 'swh::deploy::worker::lister_gitlab::config/credentials/gitlab/0/username'}
+swh::deploy::worker::lister_gitlab::db::password: swh::deploy::worker::lister_gitlab::db::password
+swh::deploy::worker::lister_pypi::db::password: swh::deploy::worker::lister_pypi::db::password
 swh::deploy::worker::task_broker::password: swh::deploy::worker::task_broker::password
 users:
   anlambert: {password: users/anlambert/password}
