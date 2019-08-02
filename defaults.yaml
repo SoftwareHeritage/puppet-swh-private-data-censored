@@ -1,4 +1,5 @@
 annex::vhost::basic_auth_content: annex::vhost::basic_auth_content
+annex::vhost::provenance::basic_auth_content: annex::vhost::provenance::basic_auth_content
 basic_auth_content: basic_auth_content
 basic_auth_deposit_content: basic_auth_deposit_content
 ceph::secrets::admin: ceph::secrets::admin
@@ -13,8 +14,8 @@ ceph::secrets::swh_contents_test_rw: ceph::secrets::swh_contents_test_rw
 deposit_basic_auth_swhworker_password: deposit_basic_auth_swhworker_password
 deposit_basic_auth_swhworker_username: deposit_basic_auth_swhworker_username
 gandi::softwareheritage_org::api_key: gandi::softwareheritage_org::api_key
-gandi::softwareheritage_org::xmlrpc_key: gandi::softwareheritage_org::xmlrpc_key
 gandi::softwareheritage_org::sharing_id: gandi::softwareheritage_org::sharing_id
+gandi::softwareheritage_org::xmlrpc_key: gandi::softwareheritage_org::xmlrpc_key
 grafana::db::password: grafana::db::password
 grafana::passwords: {admin: 'grafana::passwords/admin', anonymous: 'grafana::passwords/anonymous'}
 icinga2::apiusers:
