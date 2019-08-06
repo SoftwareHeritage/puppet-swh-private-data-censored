@@ -73,6 +73,9 @@ swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh::deploy::sch
 swh::deploy::scheduler::updater::consumer::ghtorrent::private_key: swh::deploy::scheduler::updater::consumer::ghtorrent::private_key
 swh::deploy::storage::db::password: swh::deploy::storage::db::password
 swh::deploy::vault::db::password: swh::deploy::vault::db::password
+swh::deploy::db::storage::password: swh::deploy::db::storage::password
+swh::deploy::db::indexer::password: swh::deploy::db::indexer::password
+swh::deploy::db::scheduler::password: swh::deploy::db::scheduler::password
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
