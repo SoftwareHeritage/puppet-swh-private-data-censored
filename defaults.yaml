@@ -65,6 +65,8 @@ swh::deploy::db::pgbouncer::user::password: swh::deploy::db::pgbouncer::user::pa
 swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
 swh::deploy::indexer::storage::db::password: swh::deploy::indexer::storage::db::password
+swh::deploy::db::deposit::password: swh::deploy::db::deposit::password
+swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
 swh::deploy::scheduler::task_broker::password: swh::deploy::scheduler::task_broker::password
