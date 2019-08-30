@@ -158,3 +158,4 @@ users:
   vlorentz: {password: users/vlorentz/password}
   zack: {password: users/zack/password}
 varnish::secret: varnish::secret
+swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
