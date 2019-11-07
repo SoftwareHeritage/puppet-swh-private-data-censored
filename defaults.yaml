@@ -144,7 +144,7 @@ swh::deploy::worker::lister::config::credentials:
     wikimedia:
     - {password: 'swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/password',
       username: 'swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/username'}
-swh::deploy::worker::lister::db::password: swh::deploy::worker::lister::db::password
+swh::deploy::lister::db::password: swh::deploy::lister::db::password
 swh::deploy::worker::loader_debian::db::password: swh::deploy::worker::loader_debian::db::password
 swh::deploy::worker::task_broker::password: swh::deploy::worker::task_broker::password
 users:
