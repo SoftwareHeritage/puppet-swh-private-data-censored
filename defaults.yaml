@@ -44,6 +44,7 @@ phabricator::mysql::root_password: phabricator::mysql::root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
 rabbitmq::monitoring::password: rabbitmq::monitoring::password
 redis::server::password: redis::server::password
+sentry::postgres::password: sentry::postgres::password
 sentry::secret_key: sentry::secret_key
 ssl:
   star_internal_softwareheritage_org:
