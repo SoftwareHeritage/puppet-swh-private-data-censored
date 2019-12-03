@@ -1,1 +1,1 @@
-{'varnish::secret': 'varnish::secret'}
+varnish::secret: varnish::secret
