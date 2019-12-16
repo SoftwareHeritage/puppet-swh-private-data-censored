@@ -79,6 +79,7 @@ swh::deploy::deposit::sentry_dsn: swh::deploy::deposit::sentry_dsn
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
 swh::deploy::indexer::sentry_dsn: swh::deploy::indexer::sentry_dsn
 swh::deploy::indexer::storage::db::password: swh::deploy::indexer::storage::db::password
+swh::deploy::indexer::storage::sentry_dsn: swh::deploy::indexer::storage::sentry_dsn
 swh::deploy::lister::db::password: swh::deploy::lister::db::password
 swh::deploy::lister::sentry_dsn: swh::deploy::lister::sentry_dsn
 swh::deploy::loader_core::sentry_dsn: swh::deploy::loader_core::sentry_dsn
