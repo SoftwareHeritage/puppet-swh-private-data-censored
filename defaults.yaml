@@ -75,19 +75,30 @@ swh::deploy::db::pgbouncer::user::password: swh::deploy::db::pgbouncer::user::pa
 swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
 swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
 swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
+swh::deploy::deposit::sentry_dsn: swh::deploy::deposit::sentry_dsn
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
+swh::deploy::indexer::sentry_dsn: swh::deploy::indexer::sentry_dsn
 swh::deploy::indexer::storage::db::password: swh::deploy::indexer::storage::db::password
 swh::deploy::lister::db::password: swh::deploy::lister::db::password
+swh::deploy::lister::sentry_dsn: swh::deploy::lister::sentry_dsn
+swh::deploy::loader_core::sentry_dsn: swh::deploy::loader_core::sentry_dsn
+swh::deploy::loader_git::sentry_dsn: swh::deploy::loader_git::sentry_dsn
+swh::deploy::loader_mercurial::sentry_dsn: swh::deploy::loader_mercurial::sentry_dsn
+swh::deploy::objstorage::sentry_dsn: swh::deploy::objstorage::sentry_dsn
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
+swh::deploy::scheduler::sentry_dsn: swh::deploy::scheduler::sentry_dsn
 swh::deploy::scheduler::task_broker::password: swh::deploy::scheduler::task_broker::password
 swh::deploy::scheduler::updater::backend::db::password: swh::deploy::scheduler::updater::backend::db::password
 swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh::deploy::scheduler::updater::consumer::ghtorrent::password
 swh::deploy::scheduler::updater::consumer::ghtorrent::private_key: swh::deploy::scheduler::updater::consumer::ghtorrent::private_key
 swh::deploy::storage::db::password: swh::deploy::storage::db::password
+swh::deploy::storage::sentry_dsn: swh::deploy::storage::sentry_dsn
 swh::deploy::vault::db::password: swh::deploy::vault::db::password
+swh::deploy::vault::sentry_dsn: swh::deploy::vault::sentry_dsn
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
+swh::deploy::webapp::sentry_dsn: swh::deploy::webapp::sentry_dsn
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
 swh::deploy::worker::lister::config::credentials:
   github:
@@ -148,8 +159,6 @@ users:
     password: users/ardumont/password
   ddouard:
     password: users/ddouard/password
-  ftigeot:
-    password: users/ftigeot/password
   grouss:
     password: users/grouss/password
   olasd:
