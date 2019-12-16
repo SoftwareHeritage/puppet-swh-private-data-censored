@@ -88,6 +88,7 @@ swh::deploy::loader_mercurial::sentry_dsn: swh::deploy::loader_mercurial::sentry
 swh::deploy::objstorage::sentry_dsn: swh::deploy::objstorage::sentry_dsn
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
+swh::deploy::scheduler::remote::sentry_dsn: swh::deploy::scheduler::remote::sentry_dsn
 swh::deploy::scheduler::sentry_dsn: swh::deploy::scheduler::sentry_dsn
 swh::deploy::scheduler::task_broker::password: swh::deploy::scheduler::task_broker::password
 swh::deploy::scheduler::updater::backend::db::password: swh::deploy::scheduler::updater::backend::db::password
