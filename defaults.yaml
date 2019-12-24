@@ -2,6 +2,7 @@ annex::vhost::basic_auth_content: annex::vhost::basic_auth_content
 annex::vhost::provenance::basic_auth_content: annex::vhost::provenance::basic_auth_content
 basic_auth_content: basic_auth_content
 basic_auth_deposit_content: basic_auth_deposit_content
+borg::passphrase::seed: borg::passphrase::seed
 ceph::secrets::admin: ceph::secrets::admin
 ceph::secrets::bootstrap_osd: ceph::secrets::bootstrap_osd
 ceph::secrets::mgr: ceph::secrets::mgr
