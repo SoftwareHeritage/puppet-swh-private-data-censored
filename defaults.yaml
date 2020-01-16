@@ -27,6 +27,7 @@ icinga2::apiusers:
     password: icinga2::apiusers/root/password
 icinga2::icingaweb2::db::password: icinga2::icingaweb2::db::password
 icinga2::master::db::password: icinga2::master::db::password
+keycloak::postgres::password: keycloak::postgres::password
 mediawiki::vhosts:
   intranet.softwareheritage.org:
     basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
