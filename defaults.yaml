@@ -79,6 +79,7 @@ swh::deploy::db::pgbouncer::user::password: swh::deploy::db::pgbouncer::user::pa
 swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
 swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
 swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
+swh::deploy::deposit::e2e::password: swh::deploy::deposit::e2e::password
 swh::deploy::deposit::sentry_dsn: swh::deploy::deposit::sentry_dsn
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
 swh::deploy::indexer::sentry_dsn: swh::deploy::indexer::sentry_dsn
