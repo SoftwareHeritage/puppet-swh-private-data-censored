@@ -92,6 +92,8 @@ swh::deploy::loader_git::sentry_dsn: swh::deploy::loader_git::sentry_dsn
 swh::deploy::loader_mercurial::sentry_dsn: swh::deploy::loader_mercurial::sentry_dsn
 swh::deploy::loader_svn::sentry_dsn: swh::deploy::loader_svn::sentry_dsn
 swh::deploy::objstorage::sentry_dsn: swh::deploy::objstorage::sentry_dsn
+swh::deploy::search::sentry_dsn: swh::deploy::search::sentry_dsn
+
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
 swh::deploy::scheduler::remote::sentry_dsn: swh::deploy::scheduler::remote::sentry_dsn
