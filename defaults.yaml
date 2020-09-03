@@ -180,4 +180,6 @@ users:
     password: users/vlorentz/password
   zack:
     password: users/zack/password
+  vsellier:
+    password: users/vsellier/password
 varnish::secret: varnish::secret
