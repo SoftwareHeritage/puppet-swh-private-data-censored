@@ -183,3 +183,9 @@ users:
   vsellier:
     password: users/vsellier/password
 varnish::secret: varnish::secret
+
+netbox::db::password: netbox::db::password
+netbox::redis::password: netbox::redis::password
+netbox::secret_key: netbox::secret_key
+netbox::admin::password: netbox::admin::password
+netbox::admin::api_token: netbox::admin::api_token
