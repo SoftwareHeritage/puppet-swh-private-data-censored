@@ -45,6 +45,7 @@ mediawiki::vhosts:
     secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
     upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
 phabricator::mysql::password: phabricator::mysql::password
+phabricator::mysql::readonly_password_seed: phabricator::mysql::readonly_password_seed
 phabricator::mysql::root_password: phabricator::mysql::root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
 rabbitmq::monitoring::password: rabbitmq::monitoring::password
