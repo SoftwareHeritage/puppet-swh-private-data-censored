@@ -110,7 +110,8 @@ swh::deploy::vault::db::password: swh::deploy::vault::db::password
 swh::deploy::vault::sentry_dsn: swh::deploy::vault::sentry_dsn
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
-swh::deploy::webapp::sentry_dsn: swh::deploy::webapp::sentry_dsn
+# so the gunicorn-swh-webapp service can start out of a vagrant up staging-webapp...
+swh::deploy::webapp::sentry_dsn: https://swh::deploy::webapp::sentry_dsn@sentry.softwareheritage.org/13
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
 swh::deploy::worker::lister::config::credentials:
   github:
