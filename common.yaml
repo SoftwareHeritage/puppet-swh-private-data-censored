@@ -44,6 +44,11 @@ mediawiki::vhosts:
       password: mediawiki::vhosts/wiki.softwareheritage.org/mysql/password
     secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
     upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
+netbox::admin::api_token: netbox::admin::api_token
+netbox::admin::password: netbox::admin::password
+netbox::db::password: netbox::db::password
+netbox::redis::password: netbox::redis::password
+netbox::secret_key: netbox::secret_key
 phabricator::mysql::password: phabricator::mysql::password
 phabricator::mysql::readonly_password_seed: phabricator::mysql::readonly_password_seed
 phabricator::mysql::root_password: phabricator::mysql::root_password
@@ -77,11 +82,11 @@ swh::azure::credentials::eeuwestswh: swh::azure::credentials::eeuwestswh
 swh::azure::credentials::feuwestswh: swh::azure::credentials::feuwestswh
 swh::azure::credentials::vaultstorage::account: swh::azure::credentials::vaultstorage::account
 swh::azure::credentials::vaultstorage::key: swh::azure::credentials::vaultstorage::key
-swh::deploy::db::pgbouncer::user::password: "%{alias('swh::deploy::db::postgres::password')}"
+swh::deploy::db::pgbouncer::user::password: swh::deploy::db::pgbouncer::user::password
 swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
 swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
-swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
 swh::deploy::deposit::e2e::password: swh::deploy::deposit::e2e::password
+swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
 swh::deploy::deposit::sentry_dsn: swh::deploy::deposit::sentry_dsn
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
 swh::deploy::indexer::sentry_dsn: swh::deploy::indexer::sentry_dsn
@@ -94,8 +99,6 @@ swh::deploy::loader_git::sentry_dsn: swh::deploy::loader_git::sentry_dsn
 swh::deploy::loader_mercurial::sentry_dsn: swh::deploy::loader_mercurial::sentry_dsn
 swh::deploy::loader_svn::sentry_dsn: swh::deploy::loader_svn::sentry_dsn
 swh::deploy::objstorage::sentry_dsn: swh::deploy::objstorage::sentry_dsn
-swh::deploy::search::sentry_dsn: swh::deploy::search::sentry_dsn
-
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
 swh::deploy::scheduler::remote::sentry_dsn: swh::deploy::scheduler::remote::sentry_dsn
@@ -104,14 +107,14 @@ swh::deploy::scheduler::task_broker::password: swh::deploy::scheduler::task_brok
 swh::deploy::scheduler::updater::backend::db::password: swh::deploy::scheduler::updater::backend::db::password
 swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh::deploy::scheduler::updater::consumer::ghtorrent::password
 swh::deploy::scheduler::updater::consumer::ghtorrent::private_key: swh::deploy::scheduler::updater::consumer::ghtorrent::private_key
+swh::deploy::search::sentry_dsn: swh::deploy::search::sentry_dsn
 swh::deploy::storage::db::password: swh::deploy::storage::db::password
 swh::deploy::storage::sentry_dsn: swh::deploy::storage::sentry_dsn
 swh::deploy::vault::db::password: swh::deploy::vault::db::password
 swh::deploy::vault::sentry_dsn: swh::deploy::vault::sentry_dsn
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
-# so the gunicorn-swh-webapp service can start out of a vagrant up staging-webapp...
-swh::deploy::webapp::sentry_dsn: https://swh::deploy::webapp::sentry_dsn@sentry.softwareheritage.org/13
+swh::deploy::webapp::sentry_dsn: swh::deploy::webapp::sentry_dsn
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
 swh::deploy::worker::lister::config::credentials:
   github:
@@ -144,6 +147,8 @@ swh::deploy::worker::lister::config::credentials:
       username: swh::deploy::worker::lister::config::credentials/github/github/12/username
     - password: swh::deploy::worker::lister::config::credentials/github/github/13/password
       username: swh::deploy::worker::lister::config::credentials/github/github/13/username
+    - password: swh::deploy::worker::lister::config::credentials/github/github/14/password
+      username: swh::deploy::worker::lister::config::credentials/github/github/14/username
   gitlab:
     gitlab:
     - password: swh::deploy::worker::lister::config::credentials/gitlab/gitlab/0/password
@@ -180,14 +185,8 @@ users:
     password: users/seirl/password
   vlorentz:
     password: users/vlorentz/password
-  zack:
-    password: users/zack/password
   vsellier:
     password: users/vsellier/password
+  zack:
+    password: users/zack/password
 varnish::secret: varnish::secret
-
-netbox::db::password: netbox::db::password
-netbox::redis::password: netbox::redis::password
-netbox::secret_key: netbox::secret_key
-netbox::admin::password: netbox::admin::password
-netbox::admin::api_token: netbox::admin::api_token
