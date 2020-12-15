@@ -181,6 +181,8 @@ users:
     password: users/olasd/password
   seirl:
     password: users/seirl/password
+  tg1999:
+    password: users/tg1999/password
   vlorentz:
     password: users/vlorentz/password
   vsellier:
