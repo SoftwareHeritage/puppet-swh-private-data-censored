@@ -83,6 +83,7 @@ swh::azure::credentials::eeuwestswh: swh::azure::credentials::eeuwestswh
 swh::azure::credentials::feuwestswh: swh::azure::credentials::feuwestswh
 swh::azure::credentials::vaultstorage::account: swh::azure::credentials::vaultstorage::account
 swh::azure::credentials::vaultstorage::key: swh::azure::credentials::vaultstorage::key
+swh::deploy::clearly_defined::db::password: swh::deploy::clearly_defined::db::password
 swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
 swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
 swh::deploy::deposit::e2e::password: swh::deploy::deposit::e2e::password
