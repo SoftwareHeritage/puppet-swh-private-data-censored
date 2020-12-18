@@ -55,6 +55,7 @@ phabricator::mysql::root_password: phabricator::mysql::root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
 rabbitmq::monitoring::password: rabbitmq::monitoring::password
 redis::server::password: redis::server::password
+sentry::geoip::license_key: sentry::geoip::license_key
 sentry::postgres::password: sentry::postgres::password
 sentry::relay::secret_key: sentry::relay::secret_key
 sentry::secret_key: sentry::secret_key
