@@ -23,6 +23,7 @@ grafana::passwords:
   admin: grafana::passwords/admin
   anonymous: grafana::passwords/anonymous
 hedgedoc::keycloak::client::secret: hedgedoc::keycloak::client::secret
+hedgedoc::session_secret: hedgedoc::session_secret
 icinga2::apiusers:
   root:
     password: icinga2::apiusers/root/password
