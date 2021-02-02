@@ -22,6 +22,7 @@ grafana::db::password: grafana::db::password
 grafana::passwords:
   admin: grafana::passwords/admin
   anonymous: grafana::passwords/anonymous
+hedgedoc::keycloak::client::secret: hedgedoc::keycloak::client::secret
 icinga2::apiusers:
   root:
     password: icinga2::apiusers/root/password
@@ -29,6 +30,7 @@ icinga2::icingaweb2::db::password: icinga2::icingaweb2::db::password
 icinga2::master::db::password: icinga2::master::db::password
 kafka::broker::truststore_seed: kafka::broker::truststore_seed
 keycloak::admin::password: keycloak::admin::password
+keycloak::clients::hedgedoc::secret: keycloak::clients::hedgedoc::secret
 keycloak::postgres::password: keycloak::postgres::password
 mediawiki::vhosts:
   intranet.softwareheritage.org:
