@@ -18,7 +18,7 @@ gandi::softwareheritage_org::api_key: gandi::softwareheritage_org::api_key
 gandi::softwareheritage_org::sharing_id: gandi::softwareheritage_org::sharing_id
 gandi::softwareheritage_org::xmlrpc_key: gandi::softwareheritage_org::xmlrpc_key
 gandi::swh_network::sharing_id: gandi::swh_network::sharing_id
-grafana::db::password: grafana::db::password
+grafana::db::password: grafana-db-password
 grafana::passwords:
   admin: grafana::passwords/admin
   anonymous: grafana::passwords/anonymous
@@ -26,40 +26,40 @@ hedgedoc::keycloak::client::secret: hedgedoc::keycloak::client::secret
 hedgedoc::session_secret: hedgedoc::session_secret
 icinga2::apiusers:
   root:
-    password: icinga2::apiusers/root/password
-icinga2::icingaweb2::db::password: icinga2::icingaweb2::db::password
-icinga2::master::db::password: icinga2::master::db::password
+    password: icinga2-apiusers-root-password
+icinga2::icingaweb2::db::password: icinga2-icingaweb2-db-password
+icinga2::master::db::password: icinga2-master-db-password
 kafka::broker::truststore_seed: kafka::broker::truststore_seed
-keycloak::admin::password: keycloak::admin::password
+keycloak::admin::password: keycloak-admin-password
 keycloak::clients::hedgedoc::secret: keycloak::clients::hedgedoc::secret
-keycloak::postgres::password: keycloak::postgres::password
+keycloak::postgres::password: keycloak-postgres-password
 mediawiki::vhosts:
   intranet.softwareheritage.org:
     basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
     icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
     mysql:
-      password: mediawiki::vhosts/intranet.softwareheritage.org/mysql/password
+      password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
     secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
     upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
   wiki.softwareheritage.org:
     basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
     mysql:
-      password: mediawiki::vhosts/wiki.softwareheritage.org/mysql/password
+      password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
     secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
     upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
 netbox::admin::api_token: netbox::admin::api_token
-netbox::admin::password: netbox::admin::password
-netbox::db::password: netbox::db::password
-netbox::redis::password: netbox::redis::password
+netbox::admin::password: netbox-admin-password
+netbox::db::password: netbox-db-password
+netbox::redis::password: netbox-redis-password
 netbox::secret_key: netbox::secret_key
-phabricator::mysql::password: phabricator::mysql::password
+phabricator::mysql::password: phabricator-mysql-password
 phabricator::mysql::readonly_password_seed: phabricator::mysql::readonly_password_seed
-phabricator::mysql::root_password: phabricator::mysql::root_password
+phabricator::mysql::root_password: phabricator-mysql-root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
-rabbitmq::monitoring::password: rabbitmq::monitoring::password
-redis::server::password: redis::server::password
+rabbitmq::monitoring::password: rabbitmq-monitoring-password
+redis::server::password: redis-server-password
 sentry::geoip::license_key: sentry::geoip::license_key
-sentry::postgres::password: sentry::postgres::password
+sentry::postgres::password: sentry-postgres-password
 sentry::relay::secret_key: sentry::relay::secret_key
 sentry::secret_key: sentry::secret_key
 ssl:
@@ -87,17 +87,17 @@ swh::azure::credentials::eeuwestswh: swh::azure::credentials::eeuwestswh
 swh::azure::credentials::feuwestswh: swh::azure::credentials::feuwestswh
 swh::azure::credentials::vaultstorage::account: swh::azure::credentials::vaultstorage::account
 swh::azure::credentials::vaultstorage::key: swh::azure::credentials::vaultstorage::key
-swh::deploy::clearly_defined::db::password: swh::deploy::clearly_defined::db::password
-swh::deploy::db::postgres::password: swh::deploy::db::postgres::password
-swh::deploy::deposit::db::password: swh::deploy::deposit::db::password
-swh::deploy::deposit::e2e::password: swh::deploy::deposit::e2e::password
+swh::deploy::clearly_defined::db::password: swh-deploy-clearly_defined-db-password
+swh::deploy::db::postgres::password: swh-deploy-db-postgres-password
+swh::deploy::deposit::db::password: swh-deploy-deposit-db-password
+swh::deploy::deposit::e2e::password: swh-deploy-deposit-e2e-password
 swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
 swh::deploy::deposit::sentry_token: swh::deploy::deposit::sentry_token
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
-swh::deploy::hedgedoc::db::password: swh::deploy::hedgedoc::db::password
+swh::deploy::hedgedoc::db::password: swh-deploy-hedgedoc-db-password
 swh::deploy::indexer::sentry_token: swh::deploy::indexer::sentry_token
-swh::deploy::indexer::storage::db::password: swh::deploy::indexer::storage::db::password
-swh::deploy::lister::db::password: swh::deploy::lister::db::password
+swh::deploy::indexer::storage::db::password: swh-deploy-indexer-storage-db-password
+swh::deploy::lister::db::password: swh-deploy-lister-db-password
 swh::deploy::lister::sentry_token: swh::deploy::lister::sentry_token
 swh::deploy::loader_core::sentry_token: swh::deploy::loader_core::sentry_token
 swh::deploy::loader_git::sentry_token: swh::deploy::loader_git::sentry_token
@@ -105,16 +105,16 @@ swh::deploy::loader_mercurial::sentry_token: swh::deploy::loader_mercurial::sent
 swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
 swh::deploy::objstorage::sentry_token: swh::deploy::objstorage::sentry_token
 swh::deploy::private_key: swh::deploy::private_key
-swh::deploy::scheduler::db::password: swh::deploy::scheduler::db::password
+swh::deploy::scheduler::db::password: swh-deploy-scheduler-db-password
 swh::deploy::scheduler::sentry_token: swh::deploy::scheduler::sentry_token
-swh::deploy::scheduler::task_broker::password: swh::deploy::scheduler::task_broker::password
-swh::deploy::scheduler::updater::backend::db::password: swh::deploy::scheduler::updater::backend::db::password
-swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh::deploy::scheduler::updater::consumer::ghtorrent::password
+swh::deploy::scheduler::task_broker::password: swh-deploy-scheduler-task_broker-password
+swh::deploy::scheduler::updater::backend::db::password: swh-deploy-scheduler-updater-backend-db-password
+swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh-deploy-scheduler-updater-consumer-ghtorrent-password
 swh::deploy::scheduler::updater::consumer::ghtorrent::private_key: swh::deploy::scheduler::updater::consumer::ghtorrent::private_key
 swh::deploy::search::sentry_token: swh::deploy::search::sentry_token
-swh::deploy::storage::db::password: swh::deploy::storage::db::password
+swh::deploy::storage::db::password: swh-deploy-storage-db-password
 swh::deploy::storage::sentry_token: swh::deploy::storage::sentry_token
-swh::deploy::vault::db::password: swh::deploy::vault::db::password
+swh::deploy::vault::db::password: swh-deploy-vault-db-password
 swh::deploy::vault::sentry_token: swh::deploy::vault::sentry_token
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
@@ -123,76 +123,76 @@ swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basi
 swh::deploy::worker::lister::config::credentials:
   github:
     github:
-    - password: swh::deploy::worker::lister::config::credentials/github/github/0/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-0-password
       username: swh::deploy::worker::lister::config::credentials/github/github/0/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/1/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-1-password
       username: swh::deploy::worker::lister::config::credentials/github/github/1/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/2/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-2-password
       username: swh::deploy::worker::lister::config::credentials/github/github/2/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/3/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-3-password
       username: swh::deploy::worker::lister::config::credentials/github/github/3/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/4/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-4-password
       username: swh::deploy::worker::lister::config::credentials/github/github/4/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/5/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-5-password
       username: swh::deploy::worker::lister::config::credentials/github/github/5/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/6/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-6-password
       username: swh::deploy::worker::lister::config::credentials/github/github/6/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/7/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-7-password
       username: swh::deploy::worker::lister::config::credentials/github/github/7/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/8/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-8-password
       username: swh::deploy::worker::lister::config::credentials/github/github/8/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/9/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-9-password
       username: swh::deploy::worker::lister::config::credentials/github/github/9/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/10/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-10-password
       username: swh::deploy::worker::lister::config::credentials/github/github/10/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/11/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-11-password
       username: swh::deploy::worker::lister::config::credentials/github/github/11/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/12/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-12-password
       username: swh::deploy::worker::lister::config::credentials/github/github/12/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/13/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-13-password
       username: swh::deploy::worker::lister::config::credentials/github/github/13/username
-    - password: swh::deploy::worker::lister::config::credentials/github/github/14/password
+    - password: swh-deploy-worker-lister-config-credentials-github-github-14-password
       username: swh::deploy::worker::lister::config::credentials/github/github/14/username
   gitlab:
     gitlab:
-    - password: swh::deploy::worker::lister::config::credentials/gitlab/gitlab/0/password
+    - password: swh-deploy-worker-lister-config-credentials-gitlab-gitlab-0-password
       username: swh::deploy::worker::lister::config::credentials/gitlab/gitlab/0/username
   phabricator:
     blender:
-    - password: swh::deploy::worker::lister::config::credentials/phabricator/blender/0/password
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-blender-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/blender/0/username
     kde:
-    - password: swh::deploy::worker::lister::config::credentials/phabricator/kde/0/password
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-kde-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/kde/0/username
     llvm:
-    - password: swh::deploy::worker::lister::config::credentials/phabricator/llvm/0/password
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-llvm-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/llvm/0/username
     swh:
-    - password: swh::deploy::worker::lister::config::credentials/phabricator/swh/0/password
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-swh-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/swh/0/username
     wikimedia:
-    - password: swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/password
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-wikimedia-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/username
-swh::deploy::worker::task_broker::password: swh::deploy::worker::task_broker::password
+swh::deploy::worker::task_broker::password: swh-deploy-worker-task_broker-password
 users:
   anlambert:
-    password: users/anlambert/password
+    password: users-anlambert-password
   ardumont:
-    password: users/ardumont/password
+    password: users-ardumont-password
   ddouard:
-    password: users/ddouard/password
+    password: users-ddouard-password
   grouss:
-    password: users/grouss/password
+    password: users-grouss-password
   olasd:
-    password: users/olasd/password
+    password: users-olasd-password
   seirl:
-    password: users/seirl/password
+    password: users-seirl-password
   tg1999:
-    password: users/tg1999/password
+    password: users-tg1999-password
   vlorentz:
-    password: users/vlorentz/password
+    password: users-vlorentz-password
   vsellier:
-    password: users/vsellier/password
+    password: users-vsellier-password
   zack:
-    password: users/zack/password
+    password: users-zack-password
 varnish::secret: varnish::secret
