@@ -88,7 +88,7 @@ swh::azure::credentials::feuwestswh: swh::azure::credentials::feuwestswh
 swh::azure::credentials::vaultstorage::account: swh::azure::credentials::vaultstorage::account
 swh::azure::credentials::vaultstorage::key: swh::azure::credentials::vaultstorage::key
 swh::deploy::clearly_defined::db::password: swh-deploy-clearly_defined-db-password
-swh::deploy::counters::sentry_token: swh::deploy::counters::sentry::token
+swh::deploy::counters::sentry_token: swh::deploy::counters::sentry_token
 swh::deploy::db::postgres::password: swh-deploy-db-postgres-password
 swh::deploy::deposit::db::password: swh-deploy-deposit-db-password
 swh::deploy::deposit::e2e::password: swh-deploy-deposit-e2e-password
@@ -119,6 +119,7 @@ swh::deploy::vault::db::password: swh-deploy-vault-db-password
 swh::deploy::vault::sentry_token: swh::deploy::vault::sentry_token
 swh::deploy::webapp::conf::secret_key: swh::deploy::webapp::conf::secret_key
 swh::deploy::webapp::config::grecaptcha::private_key: swh::deploy::webapp::config::grecaptcha::private_key
+swh::deploy::webapp::db::password: swh-deploy-webapp-db-password
 swh::deploy::webapp::sentry_token: swh::deploy::webapp::sentry_token
 swh::deploy::webapp::vhost::basic_auth_content: swh::deploy::webapp::vhost::basic_auth_content
 swh::deploy::worker::lister::config::credentials:
@@ -184,6 +185,8 @@ users:
     password: users-ddouard-password
   grouss:
     password: users-grouss-password
+  hakb:
+    password: users-hakb-password
   olasd:
     password: users-olasd-password
   seirl:
