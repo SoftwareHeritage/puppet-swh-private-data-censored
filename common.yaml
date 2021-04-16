@@ -187,6 +187,8 @@ users:
     password: users-grouss-password
   hakb:
     password: users-hakb-password
+  jayesh:
+    password: users-jayesh-password
   olasd:
     password: users-olasd-password
   seirl:
