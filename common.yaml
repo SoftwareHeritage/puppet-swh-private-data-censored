@@ -200,6 +200,8 @@ users:
     password: users-vlorentz-password
   vsellier:
     password: users-vsellier-password
+  zaboukha:
+    password: users-zaboukha-password
   zack:
     password: users-zack-password
 varnish::secret: varnish::secret
