@@ -69,6 +69,10 @@ ssl:
     private_key: ssl/star_softwareheritage_org/private_key
   stats_export_softwareheritage_org:
     private_key: ssl/stats_export_softwareheritage_org/private_key
+status_io::api_id: status_io::api_id
+status_io::api_key: status_io::api_key
+status_io::metrics::scn: status_io::metrics::scn
+status_io::status_page: status_io::status_page
 swh::azure::credentials::0euwestswh: swh::azure::credentials::0euwestswh
 swh::azure::credentials::1euwestswh: swh::azure::credentials::1euwestswh
 swh::azure::credentials::2euwestswh: swh::azure::credentials::2euwestswh
