@@ -56,6 +56,7 @@ phabricator::mysql::password: phabricator-mysql-password
 phabricator::mysql::readonly_password_seed: phabricator::mysql::readonly_password_seed
 phabricator::mysql::root_password: phabricator-mysql-root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
+prometheus::pve-exporter::password: prometheus-pve-exporter-password
 rabbitmq::monitoring::password: rabbitmq-monitoring-password
 redis::server::password: redis-server-password
 sentry::geoip::license_key: sentry::geoip::license_key
