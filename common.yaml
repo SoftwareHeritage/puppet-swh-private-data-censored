@@ -161,20 +161,69 @@ swh::deploy::worker::lister::config::credentials:
       username: swh::deploy::worker::lister::config::credentials/github/github/13/username
     - password: swh-deploy-worker-lister-config-credentials-github-github-14-password
       username: swh::deploy::worker::lister::config::credentials/github/github/14/username
+    github.com:
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-0-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/0/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-1-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/1/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-2-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/2/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-3-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/3/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-4-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/4/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-5-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/5/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-6-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/6/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-7-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/7/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-8-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/8/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-9-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/9/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-10-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/10/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-11-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/11/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-12-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/12/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-13-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/13/username
+    - password: swh-deploy-worker-lister-config-credentials-github-github.com-14-password
+      username: swh::deploy::worker::lister::config::credentials/github/github.com/14/username
   gitlab:
     gitlab:
     - password: swh-deploy-worker-lister-config-credentials-gitlab-gitlab-0-password
       username: swh::deploy::worker::lister::config::credentials/gitlab/gitlab/0/username
+    gitlab.com:
+    - password: swh-deploy-worker-lister-config-credentials-gitlab-gitlab.com-0-password
+      username: swh::deploy::worker::lister::config::credentials/gitlab/gitlab.com/0/username
   phabricator:
     blender:
     - password: swh-deploy-worker-lister-config-credentials-phabricator-blender-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/blender/0/username
+    developer.blender.org:
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-developer.blender.org-0-password
+      username: swh::deploy::worker::lister::config::credentials/phabricator/developer.blender.org/0/username
+    forge.softwareheritage.org:
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-forge.softwareheritage.org-0-password
+      username: swh::deploy::worker::lister::config::credentials/phabricator/forge.softwareheritage.org/0/username
     kde:
     - password: swh-deploy-worker-lister-config-credentials-phabricator-kde-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/kde/0/username
     llvm:
     - password: swh-deploy-worker-lister-config-credentials-phabricator-llvm-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/llvm/0/username
+    phabricator.kde.org:
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-phabricator.kde.org-0-password
+      username: swh::deploy::worker::lister::config::credentials/phabricator/phabricator.kde.org/0/username
+    phabricator.wikimedia.org:
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-phabricator.wikimedia.org-0-password
+      username: swh::deploy::worker::lister::config::credentials/phabricator/phabricator.wikimedia.org/0/username
+    reviews.llvm.org:
+    - password: swh-deploy-worker-lister-config-credentials-phabricator-reviews.llvm.org-0-password
+      username: swh::deploy::worker::lister::config::credentials/phabricator/reviews.llvm.org/0/username
     swh:
     - password: swh-deploy-worker-lister-config-credentials-phabricator-swh-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/swh/0/username
