@@ -112,6 +112,7 @@ swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
 swh::deploy::mirror::db::password: swh-deploy-mirror-db-password
 swh::deploy::objstorage::sentry_token: swh::deploy::objstorage::sentry_token
 swh::deploy::private_key: swh::deploy::private_key
+swh::deploy::provenance::db::password: swh-deploy-provenance-db-password
 swh::deploy::scheduler::db::password: swh-deploy-scheduler-db-password
 swh::deploy::scheduler::sentry_token: swh::deploy::scheduler::sentry_token
 swh::deploy::scheduler::task_broker::password: swh-deploy-scheduler-task_broker-password
