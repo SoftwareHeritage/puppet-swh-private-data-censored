@@ -58,6 +58,7 @@ phabricator::mysql::root_password: phabricator-mysql-root_password
 phabricator::vhost::basic_auth_content: phabricator::vhost::basic_auth_content
 prometheus::pve-exporter::password: prometheus-pve-exporter-password
 rabbitmq::monitoring::password: rabbitmq-monitoring-password
+rabbitmq::monitoring::provenance::password: rabbitmq-monitoring-provenance-password
 redis::server::password: redis-server-password
 sentry::geoip::license_key: sentry::geoip::license_key
 sentry::postgres::password: sentry-postgres-password
@@ -112,7 +113,9 @@ swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
 swh::deploy::mirror::db::password: swh-deploy-mirror-db-password
 swh::deploy::objstorage::sentry_token: swh::deploy::objstorage::sentry_token
 swh::deploy::private_key: swh::deploy::private_key
+swh::deploy::provenance::consumer::password: swh-deploy-provenance-consumer-password
 swh::deploy::provenance::db::password: swh-deploy-provenance-db-password
+swh::deploy::provenance::producer::password: swh-deploy-provenance-producer-password
 swh::deploy::scheduler::db::password: swh-deploy-scheduler-db-password
 swh::deploy::scheduler::sentry_token: swh::deploy::scheduler::sentry_token
 swh::deploy::scheduler::task_broker::password: swh-deploy-scheduler-task_broker-password
