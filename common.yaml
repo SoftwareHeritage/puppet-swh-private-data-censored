@@ -236,6 +236,8 @@ swh::deploy::worker::lister::config::credentials:
       username: swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/username
 swh::deploy::worker::task_broker::password: swh-deploy-worker-task_broker-password
 users:
+  aeviso:
+    password: users-aeviso-password
   anlambert:
     password: users-anlambert-password
   ardumont:
