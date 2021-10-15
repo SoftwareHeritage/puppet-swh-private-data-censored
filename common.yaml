@@ -101,6 +101,7 @@ swh::deploy::deposit::e2e::password: swh-deploy-deposit-e2e-password
 swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_key
 swh::deploy::deposit::sentry_token: swh::deploy::deposit::sentry_token
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
+swh::deploy::graph::sentry_token: swh::deploy::graph::sentry_token
 swh::deploy::hedgedoc::db::password: swh-deploy-hedgedoc-db-password
 swh::deploy::indexer::sentry_token: swh::deploy::indexer::sentry_token
 swh::deploy::indexer::storage::db::password: swh-deploy-indexer-storage-db-password
