@@ -112,6 +112,10 @@ swh::deploy::loader_git::sentry_token: swh::deploy::loader_git::sentry_token
 swh::deploy::loader_mercurial::sentry_token: swh::deploy::loader_mercurial::sentry_token
 swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
 swh::deploy::mirror::db::password: swh-deploy-mirror-db-password
+swh::deploy::objstorage::reverse_proxy::basic_auth::enea-prod: swh::deploy::objstorage::reverse_proxy::basic_auth::enea-prod
+swh::deploy::objstorage::reverse_proxy::basic_auth::enea-stg: swh::deploy::objstorage::reverse_proxy::basic_auth::enea-stg
+swh::deploy::objstorage::reverse_proxy::basic_auth::swh-prod: swh::deploy::objstorage::reverse_proxy::basic_auth::swh-prod
+swh::deploy::objstorage::reverse_proxy::basic_auth::swh-stg: swh::deploy::objstorage::reverse_proxy::basic_auth::swh-stg
 swh::deploy::objstorage::sentry_token: swh::deploy::objstorage::sentry_token
 swh::deploy::private_key: swh::deploy::private_key
 swh::deploy::provenance::consumer::password: swh-deploy-provenance-consumer-password
