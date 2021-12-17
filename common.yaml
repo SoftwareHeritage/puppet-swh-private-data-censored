@@ -108,6 +108,7 @@ swh::deploy::indexer::storage::db::password: swh-deploy-indexer-storage-db-passw
 swh::deploy::lister::db::password: swh-deploy-lister-db-password
 swh::deploy::lister::sentry_token: swh::deploy::lister::sentry_token
 swh::deploy::loader_core::sentry_token: swh::deploy::loader_core::sentry_token
+swh::deploy::loader_cvs::sentry_token: swh::deploy::loader_cvs::sentry_token
 swh::deploy::loader_git::sentry_token: swh::deploy::loader_git::sentry_token
 swh::deploy::loader_mercurial::sentry_token: swh::deploy::loader_mercurial::sentry_token
 swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
@@ -270,3 +271,5 @@ users:
   zack:
     password: users-zack-password
 varnish::secret: varnish::secret
+webapp_give_public_key: webapp_give_public_key
+webapp_give_token: webapp_give_token
