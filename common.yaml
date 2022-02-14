@@ -242,6 +242,7 @@ swh::deploy::worker::lister::config::credentials:
     - password: swh-deploy-worker-lister-config-credentials-phabricator-wikimedia-0-password
       username: swh::deploy::worker::lister::config::credentials/phabricator/wikimedia/0/username
 swh::deploy::worker::task_broker::password: swh-deploy-worker-task_broker-password
+syncoid::ssh_key::storage1: syncoid::ssh_key::storage1
 users:
   aeviso:
     password: users-aeviso-password
