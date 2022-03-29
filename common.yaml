@@ -1,5 +1,7 @@
 annex::vhost::basic_auth_content: annex::vhost::basic_auth_content
 annex::vhost::provenance::basic_auth_content: annex::vhost::provenance::basic_auth_content
+azure_billing::password: azure_billing-password
+azure_billing::user: azure_billing::user
 basic_auth_content: basic_auth_content
 basic_auth_deposit_content: basic_auth_deposit_content
 borg::passphrase::seed: borg::passphrase::seed
@@ -253,6 +255,8 @@ users:
     password: users-anlambert-password
   ardumont:
     password: users-ardumont-password
+  bchauvet:
+    password: users-bchauvet-password
   ddouard:
     password: users-ddouard-password
   grouss:
