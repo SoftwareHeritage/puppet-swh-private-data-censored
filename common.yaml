@@ -132,6 +132,7 @@ swh::deploy::scheduler::updater::backend::db::password: swh-deploy-scheduler-upd
 swh::deploy::scheduler::updater::consumer::ghtorrent::password: swh-deploy-scheduler-updater-consumer-ghtorrent-password
 swh::deploy::scheduler::updater::consumer::ghtorrent::private_key: swh::deploy::scheduler::updater::consumer::ghtorrent::private_key
 swh::deploy::scrubber::db::password: swh-deploy-scrubber-db-password
+swh::deploy::scrubber::sentry_token: swh::deploy::scrubber::sentry_token
 swh::deploy::search::sentry_token: swh::deploy::search::sentry_token
 swh::deploy::storage::db::password: swh-deploy-storage-db-password
 swh::deploy::storage::sentry_token: swh::deploy::storage::sentry_token
