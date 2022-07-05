@@ -251,7 +251,7 @@ swh::deploy::worker::task_broker::password: swh-deploy-worker-task_broker-passwo
 syncoid::ssh_key::backup01-azure: syncoid::ssh_key::backup01-azure
 syncoid::ssh_key::db1: syncoid::ssh_key::db1
 syncoid::ssh_key::storage1: syncoid::ssh_key::storage1
-thanos::objstorage::azure_account_key: thanos::objstorage::azure_account_key
+thanos::objstore::azure_account_key: thanos::objstore::azure_account_key
 users:
   aeviso:
     password: users-aeviso-password
