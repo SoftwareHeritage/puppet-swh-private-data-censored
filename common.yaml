@@ -104,6 +104,7 @@ swh::deploy::deposit::runtime_secret_key: swh::deploy::deposit::runtime_secret_k
 swh::deploy::deposit::sentry_token: swh::deploy::deposit::sentry_token
 swh::deploy::deposit::vhost::basic_auth_content: swh::deploy::deposit::vhost::basic_auth_content
 swh::deploy::graph::sentry_token: swh::deploy::graph::sentry_token
+swh::deploy::graphql::reverse_proxy::basic_auth::swh-stg: swh::deploy::graphql::reverse_proxy::basic_auth::swh-stg
 swh::deploy::hedgedoc::db::password: swh-deploy-hedgedoc-db-password
 swh::deploy::indexer::sentry_token: swh::deploy::indexer::sentry_token
 swh::deploy::indexer::storage::db::password: swh-deploy-indexer-storage-db-password
