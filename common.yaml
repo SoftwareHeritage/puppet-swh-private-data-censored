@@ -270,6 +270,8 @@ users:
     password: users-hakb-password
   jayesh:
     password: users-jayesh-password
+  lunar:
+    password: users-lunar-password
   olasd:
     password: users-olasd-password
   seirl:
