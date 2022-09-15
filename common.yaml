@@ -109,6 +109,8 @@ swh::deploy::graphql::reverse_proxy::basic_auth::swh-stg: swh::deploy::graphql::
 swh::deploy::hedgedoc::db::password: swh-deploy-hedgedoc-db-password
 swh::deploy::indexer::sentry_token: swh::deploy::indexer::sentry_token
 swh::deploy::indexer::storage::db::password: swh-deploy-indexer-storage-db-password
+swh::deploy::indexer_journal_client::journal::password: swh-deploy-indexer_journal_client-journal-password
+swh::deploy::indexer_journal_client::journal::username: swh::deploy::indexer_journal_client::journal::username
 swh::deploy::lister::db::password: swh-deploy-lister-db-password
 swh::deploy::lister::sentry_token: swh::deploy::lister::sentry_token
 swh::deploy::loader_bzr::sentry_token: swh::deploy::loader_bzr::sentry_token
