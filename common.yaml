@@ -5,6 +5,7 @@ azure_billing::user: azure_billing::user
 basic_auth_content: basic_auth_content
 basic_auth_deposit_content: basic_auth_deposit_content
 borg::passphrase::seed: borg::passphrase::seed
+cassandra::jmx::password: cassandra-jmx-password
 ceph::secrets::admin: ceph::secrets::admin
 ceph::secrets::bootstrap_osd: ceph::secrets::bootstrap_osd
 ceph::secrets::mgr: ceph::secrets::mgr
@@ -114,6 +115,7 @@ swh::deploy::loader_bzr::sentry_token: swh::deploy::loader_bzr::sentry_token
 swh::deploy::loader_core::sentry_token: swh::deploy::loader_core::sentry_token
 swh::deploy::loader_cvs::sentry_token: swh::deploy::loader_cvs::sentry_token
 swh::deploy::loader_git::sentry_token: swh::deploy::loader_git::sentry_token
+swh::deploy::loader_high_priority::sentry_token: swh::deploy::loader_high_priority::sentry_token
 swh::deploy::loader_mercurial::sentry_token: swh::deploy::loader_mercurial::sentry_token
 swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
 swh::deploy::mirror::db::password: swh-deploy-mirror-db-password
