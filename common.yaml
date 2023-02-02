@@ -293,3 +293,4 @@ users:
 varnish::secret: varnish::secret
 webapp_give_public_key: webapp_give_public_key
 webapp_give_token: webapp_give_token
+profile::jenkins::gitlab_registry::access_token: profile::jenkins::gitlab_registry::access_token
