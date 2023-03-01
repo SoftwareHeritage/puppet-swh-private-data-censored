@@ -270,6 +270,8 @@ users:
     password: users-ddouard-password
   grouss:
     password: users-grouss-password
+  gsamson:
+    password: users-gsamson-password
   hakb:
     password: users-hakb-password
   jayesh:
