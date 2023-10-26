@@ -144,6 +144,7 @@ swh::deploy::scrubber::sentry_token: swh::deploy::scrubber::sentry_token
 swh::deploy::search::sentry_token: swh::deploy::search::sentry_token
 swh::deploy::storage::db::password: swh-deploy-storage-db-password
 swh::deploy::storage::sentry_token: swh::deploy::storage::sentry_token
+swh::deploy::svix::db::password: swh-deploy-svix-db-password
 swh::deploy::vault::db::password: swh-deploy-vault-db-password
 swh::deploy::vault::sentry_token: swh::deploy::vault::sentry_token
 swh::deploy::webapp-next-version::db::password: swh-deploy-webapp-next-version-db-password
