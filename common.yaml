@@ -122,6 +122,7 @@ swh::deploy::loader_git::sentry_token: swh::deploy::loader_git::sentry_token
 swh::deploy::loader_high_priority::sentry_token: swh::deploy::loader_high_priority::sentry_token
 swh::deploy::loader_mercurial::sentry_token: swh::deploy::loader_mercurial::sentry_token
 swh::deploy::loader_svn::sentry_token: swh::deploy::loader_svn::sentry_token
+swh::deploy::masking::db::password: swh-deploy-masking-db-password
 swh::deploy::mirror::db::password: swh-deploy-mirror-db-password
 swh::deploy::objstorage::reverse_proxy::basic_auth::enea-prod: swh::deploy::objstorage::reverse_proxy::basic_auth::enea-prod
 swh::deploy::objstorage::reverse_proxy::basic_auth::enea-stg: swh::deploy::objstorage::reverse_proxy::basic_auth::enea-stg
