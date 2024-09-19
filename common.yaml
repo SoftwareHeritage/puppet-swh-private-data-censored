@@ -36,6 +36,9 @@ kafka::broker::truststore_seed: kafka::broker::truststore_seed
 keycloak::admin::password: keycloak-admin-password
 keycloak::clients::hedgedoc::secret: keycloak::clients::hedgedoc::secret
 keycloak::postgres::password: keycloak-postgres-password
+kibana::encrypted_saved_objects::key: kibana::encrypted_saved_objects::key
+kibana::reporting::key: kibana::reporting::key
+kibana::security::key: kibana::security::key
 mediawiki::vhosts:
   intranet.softwareheritage.org:
     basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
@@ -98,6 +101,7 @@ swh::azure::credentials::feuwestswh: swh::azure::credentials::feuwestswh
 swh::azure::credentials::vaultstorage::account: swh::azure::credentials::vaultstorage::account
 swh::azure::credentials::vaultstorage::key: swh::azure::credentials::vaultstorage::key
 swh::deploy::alertmanager_irc_relay::reverse_proxy::basic_auth::swhprombot: swh::deploy::alertmanager_irc_relay::reverse_proxy::basic_auth::swhprombot
+swh::deploy::blocking::db::password: swh-deploy-blocking-db-password
 swh::deploy::clearly_defined::db::password: swh-deploy-clearly_defined-db-password
 swh::deploy::counters::sentry_token: swh::deploy::counters::sentry_token
 swh::deploy::db::postgres::password: swh-deploy-db-postgres-password
