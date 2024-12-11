@@ -270,8 +270,6 @@ syncoid::ssh_key::db1: syncoid::ssh_key::db1
 syncoid::ssh_key::storage1: syncoid::ssh_key::storage1
 thanos::objstore::azure_account_key: thanos::objstore::azure_account_key
 users:
-  aeviso:
-    password: users-aeviso-password
   anlambert:
     password: users-anlambert-password
   ardumont:
@@ -280,28 +278,16 @@ users:
     password: users-bchauvet-password
   ddouard:
     password: users-ddouard-password
-  grouss:
-    password: users-grouss-password
   gsamson:
     password: users-gsamson-password
-  hakb:
-    password: users-hakb-password
-  jayesh:
-    password: users-jayesh-password
-  lunar:
-    password: users-lunar-password
   olasd:
     password: users-olasd-password
-  seirl:
-    password: users-seirl-password
-  tg1999:
-    password: users-tg1999-password
+  varasterix:
+    password: users-varasterix-password
   vlorentz:
     password: users-vlorentz-password
   vsellier:
     password: users-vsellier-password
-  zaboukha:
-    password: users-zaboukha-password
   zack:
     password: users-zack-password
 varnish::secret: varnish::secret
