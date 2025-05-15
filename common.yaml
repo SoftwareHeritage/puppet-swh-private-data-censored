@@ -280,6 +280,8 @@ users:
     password: users-ddouard-password
   gsamson:
     password: users-gsamson-password
+  martin:
+    password: users-martin-password
   olasd:
     password: users-olasd-password
   rboyer:
