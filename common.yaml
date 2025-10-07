@@ -286,6 +286,8 @@ users:
     password: users-olasd-password
   rboyer:
     password: users-rboyer-password
+  thibaultd:
+    password: users-thibaultd-password
   varasterix:
     password: users-varasterix-password
   vlorentz:
