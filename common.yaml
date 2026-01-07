@@ -274,14 +274,10 @@ users:
     password: users-anlambert-password
   ardumont:
     password: users-ardumont-password
-  bchauvet:
-    password: users-bchauvet-password
   bzg:
     password: users-bzg-password
   ddouard:
     password: users-ddouard-password
-  gsamson:
-    password: users-gsamson-password
   martin:
     password: users-martin-password
   olasd:
@@ -294,8 +290,6 @@ users:
     password: users-varasterix-password
   vlorentz:
     password: users-vlorentz-password
-  vsellier:
-    password: users-vsellier-password
   zack:
     password: users-zack-password
 varnish::secret: varnish::secret
