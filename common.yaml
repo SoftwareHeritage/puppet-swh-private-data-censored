@@ -274,6 +274,8 @@ users:
     password: users-anlambert-password
   ardumont:
     password: users-ardumont-password
+  athiam:
+    password: users-athiam-password
   bzg:
     password: users-bzg-password
   ddouard:
