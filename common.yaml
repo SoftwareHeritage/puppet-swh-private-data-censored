@@ -5,6 +5,8 @@ azure_billing::user: azure_billing::user
 basic_auth_content: basic_auth_content
 basic_auth_deposit_content: basic_auth_deposit_content
 borg::passphrase::seed: borg::passphrase::seed
+cassandra::cql_ro::password: cassandra-cql_ro-password
+cassandra::cql_ro::user: cassandra::cql_ro::user
 cassandra::jmx::password: cassandra-jmx-password
 ceph::secrets::admin: ceph::secrets::admin
 ceph::secrets::bootstrap_osd: ceph::secrets::bootstrap_osd
