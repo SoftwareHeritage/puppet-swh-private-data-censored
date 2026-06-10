@@ -24,6 +24,7 @@ gandi::softwareheritage_org::sharing_id: gandi::softwareheritage_org::sharing_id
 gandi::softwareheritage_org::xmlrpc_key: gandi::softwareheritage_org::xmlrpc_key
 gandi::swh_network::sharing_id: gandi::swh_network::sharing_id
 grafana::db::password: grafana-db-password
+grafana::oauth::client_secret: grafana::oauth::client_secret
 grafana::passwords:
   admin: grafana::passwords/admin
   anonymous: grafana::passwords/anonymous
