@@ -23,17 +23,9 @@ gandi::softwareheritage_org::api_key: gandi::softwareheritage_org::api_key
 gandi::softwareheritage_org::sharing_id: gandi::softwareheritage_org::sharing_id
 gandi::softwareheritage_org::xmlrpc_key: gandi::softwareheritage_org::xmlrpc_key
 gandi::swh_network::sharing_id: gandi::swh_network::sharing_id
-grafana::db::password: grafana-db-password
-grafana::oauth::client_secret: grafana::oauth::client_secret
-grafana::passwords:
-  admin: grafana::passwords/admin
-  anonymous: grafana::passwords/anonymous
 hedgedoc::keycloak::client::secret: hedgedoc::keycloak::client::secret
 hedgedoc::session_secret: hedgedoc::session_secret
 hedgedoc::weekly-bot::password: hedgedoc-weekly-bot-password
-icinga2::apiusers:
-  root:
-    password: icinga2-apiusers-root-password
 icinga2::icingaweb2::db::password: icinga2-icingaweb2-db-password
 icinga2::master::db::password: icinga2-master-db-password
 kafka::broker::truststore_seed: kafka::broker::truststore_seed
@@ -43,20 +35,6 @@ keycloak::postgres::password: keycloak-postgres-password
 kibana::encrypted_saved_objects::key: kibana::encrypted_saved_objects::key
 kibana::reporting::key: kibana::reporting::key
 kibana::security::key: kibana::security::key
-mediawiki::vhosts:
-  intranet.softwareheritage.org:
-    basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
-    icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
-    mysql:
-      password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
-    secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
-    upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
-  wiki.softwareheritage.org:
-    basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
-    mysql:
-      password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
-    secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
-    upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
 netbox::admin::api_token: netbox::admin::api_token
 netbox::admin::password: netbox-admin-password
 netbox::db::password: netbox-db-password
@@ -75,13 +53,6 @@ sentry::geoip::license_key: sentry::geoip::license_key
 sentry::postgres::password: sentry-postgres-password
 sentry::relay::secret_key: sentry::relay::secret_key
 sentry::secret_key: sentry::secret_key
-ssl:
-  star_internal_softwareheritage_org:
-    private_key: ssl/star_internal_softwareheritage_org/private_key
-  star_softwareheritage_org:
-    private_key: ssl/star_softwareheritage_org/private_key
-  stats_export_softwareheritage_org:
-    private_key: ssl/stats_export_softwareheritage_org/private_key
 status_io::api_id: status_io::api_id
 status_io::api_key: status_io::api_key
 status_io::metrics::scn: status_io::metrics::scn
@@ -287,3 +258,33 @@ users::zack::password: users-zack-password
 varnish::secret: varnish::secret
 webapp_give_public_key: webapp_give_public_key
 webapp_give_token: webapp_give_token
+
+grafana::db::password: grafana-db-password
+grafana::oauth::client_secret: grafana::oauth::client_secret
+grafana::passwords:
+  admin: grafana::passwords/admin
+  anonymous: grafana::passwords/anonymous
+icinga2::apiusers:
+  root:
+    password: icinga2-apiusers-root-password
+mediawiki::vhosts:
+  intranet.softwareheritage.org:
+    basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
+    icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
+    mysql:
+      password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
+    secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
+    upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
+  wiki.softwareheritage.org:
+    basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
+    mysql:
+      password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
+    secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
+    upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
+ssl:
+  star_internal_softwareheritage_org:
+    private_key: ssl/star_internal_softwareheritage_org/private_key
+  star_softwareheritage_org:
+    private_key: ssl/star_softwareheritage_org/private_key
+  stats_export_softwareheritage_org:
+    private_key: ssl/stats_export_softwareheritage_org/private_key
