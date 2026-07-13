@@ -272,31 +272,18 @@ syncoid::ssh_key::backup01-azure: syncoid::ssh_key::backup01-azure
 syncoid::ssh_key::db1: syncoid::ssh_key::db1
 syncoid::ssh_key::storage1: syncoid::ssh_key::storage1
 thanos::objstore::azure_account_key: thanos::objstore::azure_account_key
-users:
-  anlambert:
-    password: users-anlambert-password
-  ardumont:
-    password: users-ardumont-password
-  athiam:
-    password: users-athiam-password
-  bzg:
-    password: users-bzg-password
-  ddouard:
-    password: users-ddouard-password
-  martin:
-    password: users-martin-password
-  olasd:
-    password: users-olasd-password
-  rboyer:
-    password: users-rboyer-password
-  tbastian:
-    password: users-tbastian-password
-  varasterix:
-    password: users-varasterix-password
-  vlorentz:
-    password: users-vlorentz-password
-  zack:
-    password: users-zack-password
+users::anlambert::password: users-anlambert-password
+users::ardumont::password: users-ardumont-password
+users::athiam::password: users-athiam-password
+users::bzg::password: users-bzg-password
+users::ddouard::password: users-ddouard-password
+users::martin::password: users-martin-password
+users::olasd::password: users-olasd-password
+users::rboyer::password: users-rboyer-password
+users::tbastian::password: users-tbastian-password
+users::varasterix::password: users-varasterix-password
+users::vlorentz::password: users-vlorentz-password
+users::zack::password: users-zack-password
 varnish::secret: varnish::secret
 webapp_give_public_key: webapp_give_public_key
 webapp_give_token: webapp_give_token
