@@ -159,9 +159,9 @@ webapp_give_token: webapp_give_token
 
 grafana::db::password: grafana-db-password
 grafana::oauth::client_secret: grafana::oauth::client_secret
-grafana::passwords:
-  admin: grafana::passwords/admin
-  anonymous: grafana::passwords/anonymous
+grafana::user::admin::password: grafana-user-admin-password
+grafana::user::anonymous::password: grafana-user-anonymous-password
+
 icinga2::apiusers:
   root:
     password: icinga2-apiusers-root-password
