@@ -162,9 +162,8 @@ grafana::oauth::client_secret: grafana::oauth::client_secret
 grafana::user::admin::password: grafana-user-admin-password
 grafana::user::anonymous::password: grafana-user-anonymous-password
 
-icinga2::apiusers:
-  root:
-    password: icinga2-apiusers-root-password
+icinga2::apiusers::root::password: icinga2-apiusers-root-password
+
 mediawiki::vhosts:
   intranet.softwareheritage.org:
     basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
