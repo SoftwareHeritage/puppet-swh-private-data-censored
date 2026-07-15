@@ -164,20 +164,17 @@ grafana::user::anonymous::password: grafana-user-anonymous-password
 
 icinga2::apiusers::root::password: icinga2-apiusers-root-password
 
-mediawiki::vhosts:
-  intranet.softwareheritage.org:
-    basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
-    icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
-    mysql:
-      password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
-    secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
-    upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
-  wiki.softwareheritage.org:
-    basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
-    mysql:
-      password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
-    secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
-    upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
+mediawiki::vhosts::intranet.softwareheritage.org::basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
+mediawiki::vhosts::intranet.softwareheritage.org::icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
+mediawiki::vhosts::intranet.softwareheritage.org::mysql::password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
+mediawiki::vhosts::intranet.softwareheritage.org::secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
+mediawiki::vhosts::intranet.softwareheritage.org::upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
+
+mediawiki::vhosts::wiki.softwareheritage.org::basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
+mediawiki::vhosts::wiki.softwareheritage.org::mysql::password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
+mediawiki::vhosts::wiki.softwareheritage.org::secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
+mediawiki::vhosts::wiki.softwareheritage.org::upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
+
 ssl:
   star_internal_softwareheritage_org:
     private_key: ssl/star_internal_softwareheritage_org/private_key
