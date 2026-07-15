@@ -174,11 +174,3 @@ mediawiki::vhosts::wiki::basic_auth_content: mediawiki::vhosts/wiki.softwareheri
 mediawiki::vhosts::wiki::mysql::password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
 mediawiki::vhosts::wiki::secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
 mediawiki::vhosts::wiki::upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
-
-ssl:
-  star_internal_softwareheritage_org:
-    private_key: ssl/star_internal_softwareheritage_org/private_key
-  star_softwareheritage_org:
-    private_key: ssl/star_softwareheritage_org/private_key
-  stats_export_softwareheritage_org:
-    private_key: ssl/stats_export_softwareheritage_org/private_key
