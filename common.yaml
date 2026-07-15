@@ -164,16 +164,16 @@ grafana::user::anonymous::password: grafana-user-anonymous-password
 
 icinga2::apiusers::root::password: icinga2-apiusers-root-password
 
-mediawiki::vhosts::intranet.softwareheritage.org::basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
-mediawiki::vhosts::intranet.softwareheritage.org::icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
-mediawiki::vhosts::intranet.softwareheritage.org::mysql::password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
-mediawiki::vhosts::intranet.softwareheritage.org::secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
-mediawiki::vhosts::intranet.softwareheritage.org::upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
+mediawiki::vhosts::intranet::basic_auth_content: mediawiki::vhosts/intranet.softwareheritage.org/basic_auth_content
+mediawiki::vhosts::intranet::icinga_http_auth_pair: mediawiki::vhosts/intranet.softwareheritage.org/icinga_http_auth_pair
+mediawiki::vhosts::intranet::mysql::password: mediawiki-vhosts-intranet.softwareheritage.org-mysql-password
+mediawiki::vhosts::intranet::secret_key: mediawiki::vhosts/intranet.softwareheritage.org/secret_key
+mediawiki::vhosts::intranet::upgrade_key: mediawiki::vhosts/intranet.softwareheritage.org/upgrade_key
 
-mediawiki::vhosts::wiki.softwareheritage.org::basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
-mediawiki::vhosts::wiki.softwareheritage.org::mysql::password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
-mediawiki::vhosts::wiki.softwareheritage.org::secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
-mediawiki::vhosts::wiki.softwareheritage.org::upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
+mediawiki::vhosts::wiki::basic_auth_content: mediawiki::vhosts/wiki.softwareheritage.org/basic_auth_content
+mediawiki::vhosts::wiki::mysql::password: mediawiki-vhosts-wiki.softwareheritage.org-mysql-password
+mediawiki::vhosts::wiki::secret_key: mediawiki::vhosts/wiki.softwareheritage.org/secret_key
+mediawiki::vhosts::wiki::upgrade_key: mediawiki::vhosts/wiki.softwareheritage.org/upgrade_key
 
 ssl:
   star_internal_softwareheritage_org:
